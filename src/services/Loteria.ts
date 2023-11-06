@@ -1,3 +1,5 @@
+
+
 import { LoteriaProps } from "../types";
 import api from "./api";
 

@@ -1,6 +1,7 @@
 import { createContext, useEffect, useState } from "react";
 import { LoteriaProps, Props } from "../types";
 import loteria from "../services/Loteria";
+import resultado from "../services/resultado";
 
 export const Contexto = createContext({} as LoteriaProps);
 
@@ -11,11 +12,12 @@ export function Provider({ children }: any) {
 
   useEffect(() => {
     (async function () {
-      const r = await loteria.get();
+      //const r = await loteria.get();
+      const r = resultado;
       setMegasena(r.megasena);
       setLotofacil(r.lotofacil);
       setQuina(r.quina);
-      console.log( r );
+      console.log("tudo:", r );
     })();
   }, []);
 
