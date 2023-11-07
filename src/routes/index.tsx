@@ -7,13 +7,15 @@ import Menu from "../contexts/menu";
 
 export default function Rotas (){
     return (
+        <div className="principal-bloco">
         <BrowserRouter>
             <Menu/>
             <Routes>
                 <Route path="/megasena" element={<Megasena />} />
-                <Route path="/loto" element={<Lotofacil />} />
+                <Route path="/lotofacil" element={<Lotofacil />} />
                 <Route path="/quina" element={<Quina />} />
             </Routes>
         </BrowserRouter>
+        </div>
     );
 }

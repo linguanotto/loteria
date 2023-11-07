@@ -1,0 +1,32 @@
+.container {
+    margin-right: 20px;
+  }
+   
+  .lotofacil {
+    color: #930089;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+   
+  .megasena {
+    color: #209869;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+   
+  .quina {
+    color: #260085;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+   
+  .ativo {
+    color: #aaa;
+    pointer-events: none;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+   
